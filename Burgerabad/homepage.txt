@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Making a foodwebsite-->
+    <title>Food website</title>
+    <link rel="stylesheet" href="./css/StyleSheet1.css"> <!--Linking the css file to html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Calling the fonts we desire for our website using google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Displaying the logos and reference for the links-->
+    <section class="header">
+        <!--Overhere the nav means navigation-->
+        <nav>
+            <!--Overhere i created a shortcut for the user if he clicks on the icon-->
+            <a href="homepage.html"> <img src="images/logo.png" height="50" width="50" </a>
+            <!--Created a navigation links for the user-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                </ul>
+            </div>
+            <!--Created a login/signup and cart for the user-->
+            <div class="order">
+                <ul>
+                    <li><a href="Loginpage.html">Login</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                    <li><a href="Cart.html"><img src="images/carticon.png" height="42" width="42">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="info">
+        <!--Displaying information-->
+        <h1>Burger-a-baad™</h1>
+        <p>Burger-a-baad™ is the premium patty that set the standard for foodservice burger quality and that continues to help operators deliver a tasty burger experience every day.</p>
+    </div>
+    <!--Middle section-->
+    <!--Showing the details of the ongoing deals for the website-->
+    <section class="Famous-deals">
+        <div>
+            <h2>Famous deals from our website</h2>
+        </div>
+    </section>
+    <!--Displaying the Contents for ongoing deals-->
+    <section class="contents">
+        <div class="Famous-food-items">
+            <span class="items"><img src="images/deals1.jpg" height="350" width="500"</span>
+
+            <p><center> Its the best deal you can find</center></p>
+        </div>
+        <div class="Famous-food-items">
+            <span class="items"><img src="images/deals2.jpg" height="350" width="500"</span>
+            <p><center> High reviews from our customer</center></p>
+        </div>
+        <div class="Famous-food-items">
+            <span class="items"><img src="images/deals3.jpg" height="350" width="450"</span>
+            <p><center> Best selling</center></p>
+        </div>
+    </section>
+    <!--Footer-->
+    <!--Displaying the contact information-->
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="Contact">
+            <ul>Number: (051)1111244622</ul>             <!--Showing the information-->
+            <ul>Email: myfoodwebsite@gmail.com</ul>
+            <ul>Address: DHA PHASE 2 Sector C ISB</ul>
+            <ul>Number: (051)1111244622</ul>
+
+        </div>
+        <div class="SocialMedia">
+            <span class="icons"><img src="images/icons.png" height="90" width="90"</span>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food website</title>
+    <link rel="stylesheet" href="./css/stylemenu.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Displaying the logos and reference for the links-->
+    <section class="header">
+        <!--Overhere the nav means navigation-->
+        <nav>
+            <!--Overhere i created a shortcut for the user if he clicks on the icon-->
+            <a href="homepage.html"> <img src="images/logo.png" height="50" width="50" </a>
+            <!--Created a navigation links for the user-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                </ul>
+            </div>
+            <!--Created a login/signup and cart for the user-->
+            <div class="order">
+                <ul>
+                    <li><a href="Loginpage.html">Login</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                    <li><a href="Cart.html"><img src="images/carticon.png" height="42" width="42">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="contents">
+
+            <div class="menu">
+                <div class="display">
+                                                              <!--Information about the burger-->
+                    <center>
+                        <h1>Burger-a-baad™</h1>
+                        <h3>Deals</h3>
+                    </center>
+
+                </div>
+                <div class="displays">
+
+
+                    <div class="products">
+                        <img src="images/deals1.jpg">
+                        <div class="details">
+                                                                   <!--Information about the burger-->
+                            <div class="details-sub">
+                                <h5> 3 burger </h5>
+
+
+
+                                <p>Any</p>
+                                <!--Creating a button to add in the cart-->
+                                <button type="submit"><a href="Cart.html">Add To cart</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <img src="images/deals2.jpg">
+                        <div class="details">
+                            <div class="details-sub">
+                                                                        <!--Information about the burger-->
+                                <h5>Double the deal</h5>
+                                <div class="price">
+                                    <h5>Rs1212</h5>
+                                </div>
+                                <p>Any</p>
+                                <!--Creating a button to add in the cart-->
+                                <button type="submit"><a href="Cart.html">Add To cart</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <img src="images/deals3.jpg">
+                        <div class="details">
+                                                                                 <!--Information about the burger-->
+                            <div class="details-sub">
+                                <h5>Wow deal burger</h5>
+                                <div class="price">
+                                    <h5>Rs999</h5>
+                                </div>
+                                <p>Best deal you can find</p>
+                                <!--Creating a button to add in the cart-->
+                                <button type="submit"><a href="Cart.html">Add To cart</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="Contact">
+            <ul>Number: (051)1111244622</ul>             <!--Creating a button to add in the cart-->
+            <ul>Email: myfoodwebsite@gmail.com</ul>
+            <ul>Address: DHA PHASE 2 Sector C ISB</ul>
+            <ul>Number: (051)1111244622</ul>
+
+        </div>
+        <div class="SocialMedia">
+            <span class="icons"><img src="images/icons.png" height="90" width="90"</span>
+        </div>
+    </section>
+
+</body>
+</html>
